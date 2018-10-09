@@ -1,7 +1,6 @@
 /* styling for the body */
 body {
     font-family: 'Vollkorn', sans-serif;
-    border-top: 13px solid #3a3a3a;
     margin: 0;
     background-color: #0a0a0a;
     color: rgb(214, 214, 214);
@@ -113,6 +112,15 @@ a:active {
 }
 .grid-item3 {
     background-image: url(../img/s3.gif);
+}
+.grid-item4 {
+    background-image: url(../img/s4.jpg);
+}
+.grid-item5 {
+    background-image: url(../img/s5.gif);
+}
+.grid-item6 {
+    background-image: url(../img/s6.jpg);
 }
 
 /* heading styling */
