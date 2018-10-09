@@ -1,3 +1,4 @@
+/* styling for the body */
 body {
     font-family: 'Vollkorn', sans-serif;
     border-top: 13px solid #3a3a3a;
@@ -6,17 +7,21 @@ body {
     color: rgb(214, 214, 214);
 }
 
+/* header styling starts here */
 header {
     text-align: center;
     font-size: 1.8rem;
     padding: 60px 0 0 0;
 }
+
+/* image styling */
 header img {
     width: 120px;
     height: 120px;
     border-radius: 50%;
 }
 
+/* heading styling */
 header h1 {
     font-weight: 900;
     padding: 0;
@@ -26,6 +31,7 @@ header h1 {
     line-height: 0.5;
 }
 
+/* paragraph styling */
 header p {
     line-height: 1.3;
     font-size: 2.13rem;
@@ -33,6 +39,7 @@ header p {
     margin-bottom: 60px;
 }
 
+/* header divider */
 header hr {
     background-color: #3a3a3a00;
     height: 4px;
@@ -41,3 +48,23 @@ header hr {
     border-left: none;
     border-right: none;
 }
+
+/* links styling */
+a {
+    text-decoration: none;
+    transition: color 150ms ease-in-out;
+}
+
+a:link {
+    color: yellow;
+}
+a:visited {
+    color: yellow;
+}
+a:hover {
+    color: grey;
+}
+a:active {
+    color: rgb(66, 33, 33);
+}
+/* header styling ends here */
