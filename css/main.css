@@ -5,6 +5,7 @@ body {
     margin: 0;
     background-color: #0a0a0a;
     color: rgb(214, 214, 214);
+    padding: 56px;
 }
 
 /* header styling starts here */
@@ -68,3 +69,64 @@ a:active {
     color: rgb(66, 33, 33);
 }
 /* header styling ends here */
+
+
+
+/* container styling starts here. content in grid blocks */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 2fr 0.85fr);
+    grid-row-gap: 24px;
+    grid-column-gap: 15px;
+}
+
+.grid-item {
+    background-color:#3a3a3a00;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-position: center;
+    height: auto;
+    min-height: 300px;
+}
+
+/* grind img styling starts here */
+.grid-img {
+    min-height: 100px;
+}
+
+.grid-img span {
+    padding-top: 3px;
+    display: block;
+    font-family: 'Helvetica';
+    font-weight: 500;
+    font-size: 0.7em;
+    color: #808080;
+}
+
+/* grid images */
+.grid-item1 {
+    background-image: url(../img/s1.jpg);
+}
+.grid-item2 {
+    background-image: url(../img/s2.jpg);
+}
+.grid-item3 {
+    background-image: url(../img/s3.gif);
+}
+
+/* heading styling */
+h2 {
+    font-weight: 700;
+    color: #fff;
+    font-size: 2.9375rem;
+    text-align: center;
+}
+
+h3 {
+    font-weight: 400;
+    color: yellow;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 1.6em;
+}
