@@ -7,6 +7,12 @@ body {
     padding: 56px;
 }
 
+.container {
+    width: 1240px;
+    margin: 0 auto;
+    padding: 0;
+}
+
 /* header styling starts here */
 header {
     text-align: center;
@@ -77,7 +83,7 @@ a:active {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 2fr 0.85fr);
     grid-row-gap: 24px;
-    grid-column-gap: 15px;
+    grid-column-gap: 25px;
 }
 
 .grid-item {
@@ -121,6 +127,15 @@ a:active {
 }
 .grid-item6 {
     background-image: url(../img/s6.jpg);
+}
+.grid-item7 {
+    background-image: url(../img/s7.gif);
+}
+.grid-item8 {
+    background-image: url(../img/s8.gif);
+}
+.grid-item9 {
+    background-image: url(../img/s9.jpg);
 }
 
 /* heading styling */
