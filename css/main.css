@@ -95,7 +95,7 @@ a:active {
     min-height: 300px;
 }
 
-/* grind img styling starts here */
+/* grid img styling starts here */
 .grid-img {
     min-height: 100px;
 }
@@ -152,4 +152,35 @@ h3 {
     margin-top: 4px;
     margin-bottom: 4px;
     font-size: 1.6em;
+}
+
+/* photography grid content styling starts here */
+.grid-container-photography {
+    grid-gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.grid-container-photography .grid-item {
+    min-height: 400px;
+    height: auto;
+}
+/* photography images starts here */
+.grid-item10 {
+    background-image: url(../img/p1.jpg);
+}
+.grid-item11 {
+    background-image: url(../img/p2.jpg);
+}
+.grid-item12 {
+    background-image: url(../img/p3.jpg);
+    grid-row: span 2;
+    grid-column: span 2;
+}
+.grid-item13 {
+    background-image: url(../img/p4.jpg);
+}
+.grid-item14 {
+    background-image: url(../img/p5.jpg);
 }
