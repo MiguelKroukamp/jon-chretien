@@ -13,6 +13,14 @@ body {
     padding: 0;
 }
 
+section {
+    margin: 50px auto;
+}
+hr {
+    border: none;
+    border-bottom: 1px solid #666666;
+}
+
 /* header styling starts here */
 header {
     text-align: center;
@@ -93,6 +101,10 @@ a:active {
     background-position: center;
     height: auto;
     min-height: 300px;
+}
+
+.grid-item:hover {
+    background-color:#3a3a3a80;
 }
 
 /* grid img styling starts here */
@@ -183,4 +195,69 @@ h3 {
 }
 .grid-item14 {
     background-image: url(../img/p5.jpg);
+}
+
+.grid-container-albums {
+    grid-column-gap: 25px;
+    grid-row-gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.grid-container-albums .grid-item {
+    min-height: 300px;
+    height: auto;
+}
+
+.grid-item15 {
+    background-image: url(../img/c1.jpg);
+}
+.grid-item16 {
+    background-image: url(../img/c2.jpg);
+}
+.grid-item17 {
+    background-image: url(../img/c3.jpg);
+}
+.grid-item18 {
+    background-image: url(../img/c4.jpg);
+}
+
+.grid-container-albums .grid-img {
+    text-align: center;
+    font-size: 1.2em;
+}
+.grid-container-albums .grid-img h3 {
+    font-size: 1em;
+}
+
+
+footer {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: flex-start;
+}
+
+nav li {
+    list-style: none;
+    font-size: 1.25em;
+    margin-right: 20px;
+}
+.footer-container {
+    padding: 50px 0;
+}
+footer div {
+    height: auto;
+    width: 100%;
+    display: flex;
+    font-size: 1.25em;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
