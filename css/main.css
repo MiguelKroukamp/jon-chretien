@@ -198,6 +198,8 @@ h3 {
     background-image: url(../img/p5.jpg);
 }
 
+
+/* album grid contentn styling starts here */
 .grid-container-albums {
     grid-column-gap: 25px;
     grid-row-gap: 10px;
@@ -211,6 +213,7 @@ h3 {
     height: auto;
 }
 
+/* album grid images starts here */
 .grid-item15 {
     background-image: url(../img/c1.jpg);
 }
@@ -233,12 +236,14 @@ h3 {
 }
 
 
+/* footer spacing starts here */
 footer {
     display: flex;
     margin: 0;
     padding: 0;
 }
 
+/* footer content styling */
 nav ul {
     display: flex;
     padding: 0;
@@ -251,6 +256,7 @@ nav li {
     font-size: 1.25em;
     margin-right: 20px;
 }
+
 .footer-container {
     padding: 50px 0;
 }
@@ -262,4 +268,3 @@ footer div {
     align-items: flex-end;
     justify-content: flex-end;
 }
-
