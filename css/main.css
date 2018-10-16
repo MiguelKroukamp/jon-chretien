@@ -89,7 +89,7 @@ a:active {
 /* container styling starts here. content in grid blocks */
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
     /* grid-template-rows: repeat(3, 2fr 0.85fr); */
     grid-row-gap: 24px;
     grid-column-gap: 25px;
@@ -104,13 +104,15 @@ a:active {
     min-height: 300px;
 }
 
-.grid-item:hover {
-    background-color:#3a3a3a80;
+.grid-item img:hover {
+    opacity: 0.65;
 }
 
 /* grid img styling starts here */
 .grid-img {
-    min-height: 100px;
+    width: auto;
+    max-height: 100%;
+    height: auto;
 }
 
 .grid-img span {
@@ -123,7 +125,7 @@ a:active {
 }
 
 /* grid images */
-.grid-item1 {
+/* .grid-item1 {
     background-image: url(../img/s1.jpg);
 }
 .grid-item2 {
@@ -149,7 +151,7 @@ a:active {
 }
 .grid-item9 {
     background-image: url(../img/s9.jpg);
-}
+} */
 
 /* heading styling */
 h2 {
@@ -172,15 +174,16 @@ h3 {
     grid-gap: 20px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    /* grid-template-rows: repeat(4, 1fr); */
 }
 
-.grid-container-photography .grid-item {
-    min-height: 400px;
+.grid-item img {
+    width: auto;
+    max-width: 100%;
     height: auto;
 }
 /* photography images starts here */
-.grid-item10 {
+/* .grid-item10 {
     background-image: url(../img/p1.jpg);
 }
 .grid-item11 {
@@ -196,6 +199,11 @@ h3 {
 }
 .grid-item14 {
     background-image: url(../img/p5.jpg);
+} */
+
+.grid-item12 {
+    grid-row: span 2;
+    grid-column: span 2;
 }
 
 
