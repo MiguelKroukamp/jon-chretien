@@ -124,34 +124,6 @@ a:active {
     color: #808080;
 }
 
-/* grid images */
-/* .grid-item1 {
-    background-image: url(../img/s1.jpg);
-}
-.grid-item2 {
-    background-image: url(../img/s2.jpg);
-}
-.grid-item3 {
-    background-image: url(../img/s3.gif);
-}
-.grid-item4 {
-    background-image: url(../img/s4.jpg);
-}
-.grid-item5 {
-    background-image: url(../img/s5.gif);
-}
-.grid-item6 {
-    background-image: url(../img/s6.jpg);
-}
-.grid-item7 {
-    background-image: url(../img/s7.gif);
-}
-.grid-item8 {
-    background-image: url(../img/s8.gif);
-}
-.grid-item9 {
-    background-image: url(../img/s9.jpg);
-} */
 
 /* heading styling */
 h2 {
@@ -182,24 +154,6 @@ h3 {
     max-width: 100%;
     height: auto;
 }
-/* photography images starts here */
-/* .grid-item10 {
-    background-image: url(../img/p1.jpg);
-}
-.grid-item11 {
-    background-image: url(../img/p2.jpg);
-}
-.grid-item12 {
-    background-image: url(../img/p3.jpg);
-    grid-row: span 2;
-    grid-column: span 2;
-}
-.grid-item13 {
-    background-image: url(../img/p4.jpg);
-}
-.grid-item14 {
-    background-image: url(../img/p5.jpg);
-} */
 
 .grid-item12 {
     grid-row: span 2;
@@ -207,7 +161,8 @@ h3 {
 }
 
 
-/* album grid contentn styling starts here */
+
+/* album grid content styling starts here */
 .grid-container-albums {
     grid-column-gap: 25px;
     grid-row-gap: 10px;
@@ -217,24 +172,12 @@ h3 {
 }
 
 .grid-container-albums .grid-item {
-    min-height: 300px;
+    width: auto;
+    max-width: 100%;
     height: auto;
 }
 
-/* album grid images starts here */
-.grid-item15 {
-    background-image: url(../img/c1.jpg);
-}
-.grid-item16 {
-    background-image: url(../img/c2.jpg);
-}
-.grid-item17 {
-    background-image: url(../img/c3.jpg);
-}
-.grid-item18 {
-    background-image: url(../img/c4.jpg);
-}
-
+/* album grid text styling starts here */
 .grid-container-albums .grid-img {
     text-align: center;
     font-size: 1.2em;
@@ -242,6 +185,8 @@ h3 {
 .grid-container-albums .grid-img h3 {
     font-size: 1em;
 }
+
+/* album grid content ends here */
 
 
 /* footer spacing starts here */
@@ -276,3 +221,6 @@ footer div {
     align-items: flex-end;
     justify-content: flex-end;
 }
+/* footer content styling ends here */
+
+
