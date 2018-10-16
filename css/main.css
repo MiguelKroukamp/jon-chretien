@@ -223,4 +223,81 @@ footer div {
 }
 /* footer content styling ends here */
 
+/* responsive design starts here */
+@media (max-width: 990px) {
 
+    body {
+        padding: 56px;
+    }
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 auto;
+        grid-gap: 24px;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer-container {
+        display: block;
+        text-align: center;
+    }
+    nav {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .copyright {
+        display:block;
+        justify-content: center;
+        width:100%;
+    }
+    footer {
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+    nav ul {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .header p {
+        font-size: 1em;    
+    }
+
+    header img {
+        margin: 0% auto;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .grid-container-photography {
+        grid-template-columns: repeat(1,1fr);    
+    }
+
+    .grid-item12 {
+        grid-column: span 1;
+    }
+
+    .grid-container-albums {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    img {
+        display: block;
+        height: auto;
+        width: 100%;
+    }
+    footer {
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+    nav ul {
+        justify-content: center;
+    }
+}
