@@ -90,7 +90,7 @@ a:active {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 2fr 0.85fr);
+    /* grid-template-rows: repeat(3, 2fr 0.85fr); */
     grid-row-gap: 24px;
     grid-column-gap: 25px;
 }
