@@ -271,6 +271,10 @@ footer div {
 
 @media (max-width: 480px) {
 
+    body {
+        padding: 40px;
+    }
+
     .header p {
         font-size: 0.85em;    
         padding: 0px;
@@ -302,7 +306,7 @@ footer div {
         grid-template-columns: 1fr;
         margin-bottom: 0;
         padding-bottom: 0;     
-        grid-auto-rows: 140px;
+        grid-auto-rows: 160px;
     }
 
     .grid-container-albums {
