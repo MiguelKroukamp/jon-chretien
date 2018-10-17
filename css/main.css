@@ -89,7 +89,7 @@ a:active {
 
 
 
-/* container styling starts here. content in grid blocks */
+/* "SELECTED WORKS" container styling starts here. content in grid blocks */
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
@@ -118,7 +118,7 @@ a:active {
     height: auto;
 }
 
-.grid-img span {
+span {
     padding-top: 3px;
     display: block;
     font-family: 'Helvetica';
@@ -182,11 +182,11 @@ img {
 }
 
 /* album grid text styling starts here */
-.grid-container-albums .grid-img {
+.grid-container-albums  {
     text-align: center;
     font-size: 1.2em;
 }
-.grid-container-albums .grid-img h3 {
+.grid-container-albums h3 {
     font-size: 1em;
 }
 
@@ -308,6 +308,7 @@ footer div {
     }
 
     .grid-item12 {
+
         grid-column: span 1;
     }
 
