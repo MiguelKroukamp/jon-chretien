@@ -261,6 +261,10 @@ footer div {
         justify-content: center;
         width:100%;
     }
+    .grid-container-albums div {
+        text-align: center;
+        font-size: 1em;
+    }
     footer {
         display: block;
         justify-content: center;
@@ -318,6 +322,11 @@ footer div {
         height: auto;
         width: 100%;
     }
+    .grid-container-albums div {
+        text-align: center;
+        font-size: 1em;
+    }
+    
     footer {
         display: block;
         justify-content: center;
