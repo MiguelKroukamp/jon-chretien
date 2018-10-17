@@ -152,7 +152,8 @@ h3 {
     grid-template-columns: repeat(2, 1fr);
 }
 
-.grid-item img {
+
+img {
     width: auto;
     max-width: 100%;
     height: auto;
@@ -304,7 +305,7 @@ footer div {
 
     .grid-item12 {
         grid-row: span 0;
-        grid-column: span 1;
+        grid-column: span 0;
     }
 
     .grid-container-albums {
