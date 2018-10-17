@@ -304,8 +304,8 @@ footer div {
     }
 
     .grid-item12 {
-        grid-row: span 0;
-        grid-column: span 0;
+        /* grid-row: span 0; */
+        grid-column: span 1;
     }
 
     .grid-container-albums {
