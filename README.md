@@ -1,4 +1,31 @@
-# project-2
-this is my second project. in this project i have to remake the jonchetin.com web site.
+# Project-2
+This is my second project. In this project I remade the jonchetin.com web site.
+In this I have exercised skills I've learned with coding.
 
-this is the link to my project https://miguelkroukamp.github.io/project-2/index.html
+
+
+Technologies and Tools Used:
+
+```
+Languages:
+
+- CSS
+- HTML
+
+```
+```
+Tools:
+
+- VS Code
+- GitBash
+
+```
+
+# Links and Folders
+- Base folders added
+- Readme Created
+- Live Link Created
+
+
+This is the live link to my website:
+https://miguelkroukamp.github.io/project-2/index.html
