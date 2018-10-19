@@ -28,4 +28,4 @@ Tools:
 
 
 This is the live link to my website:
-https://miguelkroukamp.github.io/project-2/index.html
+https://miguelkroukamp.github.io/jon-chretien/
